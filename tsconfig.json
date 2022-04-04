@@ -1,0 +1,21 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": ".",
+    "lib": ["esnext"],
+    "typeRoots": ["node_modules/@types"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": false,
+    "moduleResolution": "node"
+  },
+  "include": ["./*.ts", "./node_modules/denque"]
+}
