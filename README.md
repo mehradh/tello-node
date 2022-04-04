@@ -1,6 +1,6 @@
 # Tello Node
 
-A Typescript promise wrapper to communifcate with the DJI Tello drone in Nodejs
+A Typescript promise wrapper to communicate with the DJI Tello drone in Nodejs
 
 ## Requirements
 You will need a DJI Ryze Tello drone and Nodejs installed.
