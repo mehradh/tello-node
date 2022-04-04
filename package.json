@@ -1,6 +1,6 @@
 {
   "name": "tello-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Typescript promise wrapper to communifcate with the DJI Tello drone in Nodejs",
   "main": "dist/TelloNode.js",
   "module": "dist/TelloNode.js",
